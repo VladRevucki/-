@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор расчета прогнозного индекса</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1>Выберите дату прайс-листа, договора, контракта и т.п.</h1>
+                <input type="date" name="date" id="input-date" value="2023-08-22" min="2018-01-01" max="2030-12-31"
+                    required>
+                <h1>Выберите дату начала разработки сметной документации</h1>
+                <input type="date" name="date" id="input-date" value="2023-08-22" min="2018-01-01" max="2030-12-31"
+                    required>
+
+                <div class="text-add" id="text-add"></div>
+                <div class="wrapper">
+                    <button class="btn__effect">
+                        <svg class="svg__btn" version="1.1" id="Layer_1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                            <polygon style="fill: inherit;"
+                                points="202.624,478.016 0,291.36 70.512,214.8 191.968,326.656 431.44,33.984 512,99.904 "
+                                fill="#0BA4E0"></polygon>
+                        </svg>
+                        Рассчитать
+                    </button>
+                </div>
+                <div class="wrapper">
+                    <button class="btn__effect">Показать/Скрыть историю</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
