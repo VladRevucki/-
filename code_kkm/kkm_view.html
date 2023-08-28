@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Поиск</title>
+    <link rel="stylesheet" href="code_kkm_style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="" method="get">
+            <h1>Подбор кода ККМ по наименованию материала</h1>
+
+            <textarea id="outputArea" readonly placeholder="">
+                Тут будет результат
+            </textarea>
+
+            <div id="inputContainer">
+                <input type="text" id="searchText" placeholder="Введите наименование ресурса" name="user_input">
+            </div>
+
+            <div id="inputContainer">
+                <button id="submitButton" onclick="performSearch()">Определить код</button>
+            </div>
+        </form>
+
+    </div>
+
+    <script>
+        function kkmFunction() {
+            // Логика для кнопки "ККМ"
+        }
+
+        function pdfFunction() {
+            // Логика для кнопки "PDF"
+        }
+
+        function performSearch() {
+            let searchText = document.getElementById("searchText").value;
+            // Логика для поиска и вывод результата в outputArea
+        }
+    </script>
+</body>
+
+</html>

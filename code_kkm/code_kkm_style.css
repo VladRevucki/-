@@ -1,0 +1,144 @@
+@import url(style-main.css);
+@import url(fon-interface.css);
+
+
+h1 {
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-weight: bold;
+    color: var(--base_yellow);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 30px;
+    width: 800px;
+    max-width: 100%;
+    height: 630px;
+    border: 5px solid var(--base_yellow);
+    border-radius: 20px;
+}
+
+#outputArea {
+    max-width: 952px;
+    width: 100%;
+    height: 400px;
+    padding: 5px;
+    font-size: 20px;
+    box-sizing: border-box;
+    background: none;
+    border-radius: 8px;
+    border: 4px solid var(--base_yellow); /* ���������� ������ ������ */
+    margin-bottom: 15px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+/* 
+#inputContainer {
+    max-width: 956px;
+    width: 100%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+} */
+
+#searchText {
+    max-width: 952px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: none;
+    font-size: 22px;
+    outline: 3px solid var(--base_yellow);
+    outline-offset: -5px;
+    border-radius: 10px;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+#searchText:hover, #searchText:focus {
+    color: var(--base_yellow);
+}
+
+#searchText::placeholder {
+    color: var(--base_yellow);
+    font-size: 18px;
+}
+/* 
+#submitButton {
+    max-width: 952px;
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border-radius: 8px;
+    border: 1px solid var(--base_yellow); 
+    font-size: 20px;
+    color: white;
+    transition: background-color 0.3s; 
+}
+
+#submitButton:hover {
+    background-color: var(--base_yellow); 
+    color: black; 
+} */
+
+/* #buttonsContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+} */
+
+
+
+
+
+
+#inputContainer {
+    max-width: 952px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputContainer:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+#submitButton {
+    max-width: 952px;
+    width: 100%;
+    color: var(--base_yellow);
+    font-size: 22px;
+    padding: 10px 20px;
+    background-color: transparent;
+    outline: 3px solid var(--base_yellow);
+    outline-offset: -5px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
+#submitButton:hover {
+    background-color: var(--base_yellow);
+    color: #000000;
+    outline-offset: 4px;
+    outline-color: var(--base_yellow);
+}
